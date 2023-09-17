@@ -1,0 +1,72 @@
+---
+- name: "💥 breaking-change"
+  color: f94f28
+  description: "A breaking change for existing users"
+- name: "🐛bug"
+  color: 8cd842
+  description: "Something isn't working"
+- name: "📝documentation"
+  color: 00e676
+  description: "Improvements or additions to documentation"
+- name: "✨enhancement"
+  color: ffe55f
+  description: "New feature or request"
+- name: "♻️refactor"
+  color: 77e856
+  description: "Improvement of existing code, not introducing new features"
+- name: "⚡️performance"
+  color: 40c4ff
+  description: "Improving performance, not introducing new features"
+- name: "🔧 maintenance"
+  color: 2af79e
+  description: "Generic maintenance tasks"
+- name: "👷ci"
+  color: 64b5f6
+  description: "Work that improves the continue integration"
+- name: "📦️dependencies"
+  color: fdd0ae
+  description: "Upgrade or downgrade of project dependencies"
+
+- name: "🚧in-progress"
+  color: ffb74d
+  description: "Issue is currently being resolved by a developer"
+- name: "💩stale"
+  color: a78674
+  description: "There has not been activity on this issue or PR for quite some time"
+
+- name: "🔒️security"
+  color: ffce49
+  description: "Marks a security issue that needs to be resolved ASAP"
+- name: "☐ incomplete"
+  color: fef2c0
+  description: "Marks a PR or issue that is missing information."
+- name: "⛔invalid"
+  color: fef2c0
+  description: "Marks a PR or issue that is missing information"
+
+- name: "🎉beginner-friendly"
+  color: 0e8a16
+  description: "Good first issue for people wanting to contribute to the project"
+- name: "🆘help-wanted"
+  color: 0e8a16
+  description: "We need some extra helping hands or expertise in order to resolve this"
+
+- name: "priority-critical"
+  color: f65b5d
+  description: "This should be dealt with ASAP. Not fixing this issue would be a serious error."
+- name: "priority-high"
+  color: ffa310
+  description: "After critical issues are fixed, these should be dealt with before any further issues."
+- name: "priority-medium"
+  color: 03bb3f
+  description: "This issue may be useful, and needs some attention."
+- name: "priority-low"
+  color: 5cacf3
+  description: "Nice addition, maybe... someday..."
+
+- name: "🔖major"
+  color: b60205
+  description: "This PR causes a major version bump in the version number"
+- name: "🔖minor"
+  color: 0e8a16
+  description: "This PR causes a minor version bump in the version number"
