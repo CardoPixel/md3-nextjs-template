@@ -39,10 +39,10 @@
   description: "Marks a security issue that needs to be resolved ASAP"
 - name: "☐ incomplete"
   color: fef2c0
-  description: "Marks a PR or issue that is missing information."
+  description: "Marks a PR or issue that is missing information"
 - name: "⛔invalid"
   color: fef2c0
-  description: "Marks a PR or issue that is missing information"
+  description: "Marks a PR or issue that is invalid"
 
 - name: "🎉beginner-friendly"
   color: 0e8a16
@@ -53,13 +53,13 @@
 
 - name: "priority-critical"
   color: f65b5d
-  description: "This should be dealt with ASAP. Not fixing this issue would be a serious error."
+  description: "This should be dealt with ASAP. Not fixing this issue would be a serious error"
 - name: "priority-high"
   color: ffa310
-  description: "After critical issues are fixed, these should be dealt with before any further issues."
+  description: "After critical issues are fixed, these should be dealt with before any further issues"
 - name: "priority-medium"
   color: 03bb3f
-  description: "This issue may be useful, and needs some attention."
+  description: "This issue may be useful, and needs some attention"
 - name: "priority-low"
   color: 5cacf3
   description: "Nice addition, maybe... someday..."
