@@ -1,9 +1,0 @@
-{
-    "name": "MD3 Next.js Template",
-    "short_name": "MD3NT",
-    "theme_color": "#26b0fd",
-    "background_color": "#222427",
-    "display": "standalone",
-    "scope": "/",
-    "start_url": "/"
-}

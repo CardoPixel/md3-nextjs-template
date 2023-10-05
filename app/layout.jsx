@@ -7,6 +7,10 @@
  */
 export async function generateMetadata({ params }) {
   return {
+    metadataBase: new URL('https://md3-nextjs-template.vercel.app/'),
+    alternates: {
+      canonical: '/',
+    },
     generator: 'MD3 Next.js Template',
     applicationName: 'MD3NT',
     referrer: 'origin-when-cross-origin',
@@ -24,6 +28,9 @@ export async function generateMetadata({ params }) {
       email: false,
       address: false,
       telephone: false,
+    },
+    openGraph: {
+      images: '/og-image.png',
     },
   }
 }
