@@ -26,7 +26,8 @@
 				"christian-kohler.path-intellisense",
 				"esbenp.prettier-vscode",
 				"redhat.vscode-yaml",
-				"bradlc.vscode-tailwindcss"
+				"bradlc.vscode-tailwindcss",
+				"kamikillerto.vscode-colorize"
 			]
 		}
 	}

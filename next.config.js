@@ -6,7 +6,7 @@ const withPWA = require('next-pwa')({
   buildExcludes: ['app-build-manifest.json'],
 });
 
-const generateAppDirEntry = (entry) => {
+/* const generateAppDirEntry = (entry) => {
   const packagePath = require.resolve('next-pwa');
   const packageDirectory = path.dirname(packagePath);
   const registerJs = path.join(packageDirectory, 'register.js');
@@ -22,7 +22,7 @@ const generateAppDirEntry = (entry) => {
     }
     return entries;
   });
-};
+}; */
 
 const path = require('path');
 
@@ -49,12 +49,12 @@ const nextConfig = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
-  webpack: (config) => {
+  /*   webpack: (config) => {
     const entry = generateAppDirEntry(config.entry);
     config.entry = () => entry;
 
     return config;
-  },
+  }, */
 };
 
 module.exports = withPWA(nextConfig);

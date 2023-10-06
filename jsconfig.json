@@ -3,7 +3,8 @@
     "paths": {
       "@components": ["./components/*"],
       "@utils/*": ["./utils/*"],
-      "@styles/*": ["./styles/*"]
+      "@theme/*": ["./theme/*"],
+      "@store/*": ["./store/*"]
     }
   }
 }

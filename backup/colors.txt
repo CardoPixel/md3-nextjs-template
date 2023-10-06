@@ -1,0 +1,5 @@
+primary: lightblue a700
+
+secondary/terciary: orange 700
+
+terciary/secondary: green 600 

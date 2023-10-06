@@ -14,9 +14,14 @@
   "dependencies": {
     "@commitlint/cli": "^17.7.2",
     "@commitlint/config-conventional": "^17.7.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.12",
+    "@mui/material": "^5.14.12",
     "@release-it/conventional-changelog": "^7.0.2",
     "autoprefixer": "10.4.16",
     "husky": "^8.0.3",
+    "material-symbols": "^0.13.0",
     "next": "latest",
     "next-pwa": "^5.6.0",
     "next-seo": "^6.1.0",
@@ -24,7 +29,8 @@
     "react": "latest",
     "react-dom": "latest",
     "release-it": "^16.2.1",
-    "tailwindcss": "3.3.3"
+    "tailwindcss": "3.3.3",
+    "zustand": "^4.4.2"
   },
   "devDependencies": {
     "eslint": "^8.49.0",

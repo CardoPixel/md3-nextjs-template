@@ -1,3 +1,5 @@
+import ThemeSwitcher from "../components/ThemeSwitcher"
+import ThemeRegistry from "../theme/ThemeRegistry"
 /**
  *
  *
@@ -22,7 +24,7 @@ export async function generateMetadata({ params }) {
     publisher: 'Vercel',
     themeColor: [
       { media: '(prefers-color-scheme: light)', color: '#fea310' },
-      { media: '(prefers-color-scheme: dark)', color: '26b0fd' },
+      { media: '(prefers-color-scheme: dark)', color: '#26b0fd' },
     ],
     formatDetection: {
       email: false,
@@ -45,7 +47,11 @@ export async function generateMetadata({ params }) {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <ThemeRegistry options={{ key: "mui" }}>
+          <ThemeSwitcher />
+          {children}
+        </ThemeRegistry></body>
     </html>
   )
 }
