@@ -7,5 +7,9 @@ import { Typography } from "@mui/material";
  * @return {*} 
  */
 export default function Home() {
-  return <Typography>Hello, Next.js!</Typography>
+  return (
+    <>
+      <Typography>Hello, Next.js!</Typography>
+    </>
+  )
 }
