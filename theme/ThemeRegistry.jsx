@@ -8,10 +8,10 @@ import { ThemeProvider, responsiveFontSizes } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 import useMediaQuery from "@mui/material/useMediaQuery";
 
-import { themeDark } from "./dark";
-import { themeLight } from "./light";
+import { themeDark } from "@theme/dark";
+import { themeLight } from "@theme/light";
 
-import { useAppStore } from "../store/useAppStore";
+import { useAppStore } from "@store/useAppStore";
 
 /**
  *
