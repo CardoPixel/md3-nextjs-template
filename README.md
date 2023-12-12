@@ -23,19 +23,19 @@ cd md3-nextjs-template
 
 and install the dependencies:
 
-### If you use NPM (clean install):
+### If you use NPM (clean install)
 
 ```bash
 npm ci
 ```
 
-### If you use Yarn:
+### If you use Yarn
 
 ```bash
 yarn install
 ```
 
-### If you use Bun:
+### If you use Bun
 
 ```bash
 bun install
@@ -45,48 +45,43 @@ bun install
 
 To run the application in development mode, use:
 
-#### If you use NPM:
-
 ```bash
 npm run dev
 ```
 
-#### If you use Yarn:
+OR
 
 ```bash
 yarn run dev
 ```
 
-#### If you use Bun:
+OR
 
 ```bash
 bun run dev
 ```
 
-Then navigate to http://localhost:3000 to view the application.
+Then navigate to <http://localhost:3000> to view the application.
 
 ## Building for Production
 
 To build the application for production, use:
 
-#### If you use NPM:
-
 ```bash
 npm run build
 ```
 
-#### If you use Yarn:
+OR
 
 ```bash
 yarn run build
 ```
 
-#### If you use Bun:
+OR
 
 ```bash
 bun run build
 ```
-
 
 ## Customization
 
@@ -105,8 +100,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Acknowledgments
 
 - Cardo Pixel for initiating and maintaining this project.
-- OpenAI who develop ChatGPT, an invaluable tool in this project. 
+- OpenAI who develop ChatGPT, an invaluable tool in this project.
 - All contributors who have been involved in this project.
-
 
 For more information, please visit the [project's homepage](https://github.com/CardoPixel/md3-nextjs-template/).

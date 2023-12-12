@@ -1,17 +1,22 @@
-import React from "react";
-
+import React from 'react';
 import dynamic from 'next/dynamic';
+import PropTypes from 'prop-types';
 
-import ThemeRegistry from "@theme/ThemeRegistry";
+// Importing styles
+import './globals.css';
 
-import "./globals.css"
-import NavBar from "@components/NavBar";
-import Footer from "@components/Footer";
+// Importing components
+import NavBar from '@components/NavBar';
+import Footer from '@components/Footer';
+import ThemeRegistry from '@theme/ThemeRegistry';
 
-
+const DynamicPageLoadChecker = dynamic(
+  () => import('@utils/PageLoadChecker'),
+  { ssr: false }
+);
 
 /**
- *
+ * Function to generate metadata for the website
  *
  * @export
  * @param {*} { params }
@@ -47,29 +52,21 @@ export async function generateMetadata({ params }) {
   }
 }
 
-const DynamicPageLoadChecker = dynamic(() => import('@utils/PageLoadChecker'), {
-  ssr: false,
-});
-
-
-/**
- *
- *
- * @export
- * @param {*} { children }
- * @return {*} 
- */
-export default function RootLayout({ children }) {
+const RootLayout = ({ children }) => {
   return (
-    <html lang="en">
-      <ThemeRegistry options={{ key: "mui" }}>
-        <body>
-          <DynamicPageLoadChecker />
-          <NavBar />
-          {(children)}
-          <Footer />
-        </body>
+    <>
+      <ThemeRegistry options={{ key: 'mui' }}>
+        <DynamicPageLoadChecker />
+        <NavBar />
+        {children}
+        <Footer />
       </ThemeRegistry>
-    </html>
+    </>
   );
-}
+};
+
+RootLayout.propTypes = {
+  children: PropTypes.node.isRequired,
+};
+
+
