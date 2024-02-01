@@ -4,13 +4,5 @@
     "eslint:recommended",
     "google",
     "prettier"
-  ],
-  "rules": {
-    "no-restricted-imports": [
-      "error",
-      {
-        "patterns": ["@mui/*/*/*"]
-      }
-    ]
-  }
+  ]
 }

@@ -1,8 +1,10 @@
 /**
+ * Generates a web application manifest for a Material Design 3 compliant Next.js website template.
+ * The manifest defines the application's appearance and behavior when installed on a device.
+ * It includes settings like name, start URL, theme colors, and icons for various purposes.
  *
- *
- * @export
- * @return {*}
+ * @return {Object} The web application manifest object, containing properties such as name,
+ * short_name, description, start_url, display settings, background and theme colors, and an array of icon definitions.
  */
 export default function manifest() {
   return {
