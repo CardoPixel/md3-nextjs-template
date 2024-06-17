@@ -19,7 +19,7 @@
     "husky": "^9.0.7",
     "material-dynamic-colors": "^1.1.0",
     "mobile-detect": "^1.4.5",
-    "next": "14.2.3",
+    "next": "14.2.4",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^9.3.0",
     "react": "^18",
